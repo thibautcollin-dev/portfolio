@@ -65,12 +65,12 @@ const Navbar = () => {
 
                 {/* CTA Button */}
                 <div className="hidden md:flex items-center gap-2">
-                    <button
+                    {/* <button
                         onClick={() => handleNavClick('contact')}
                         className="cursor-pointer px-7 py-3.5 bg-black text-[#F4F4F4] font-medium text-base rounded-[17px] border border-black hover:bg-black/90 transition-all duration-300"
                     >
                         Démarchez-moi
-                    </button>
+                    </button> */}
                 </div>
 
                 {/* Mobile Menu Button */}
@@ -101,12 +101,12 @@ const Navbar = () => {
                             {link.label}
                         </button>
                     ))}
-                    <button
+                    {/* <button
                         onClick={() => handleNavClick('contact')}
                         className="w-full px-7 py-3.5 bg-black text-[#F4F4F4] font-medium text-base rounded-[17px] border border-black hover:bg-black/90 transition-all duration-300 mt-2"
                     >
                         Démarchez-moi
-                    </button>
+                    </button> */}
                 </div>
             </div>
         </nav>

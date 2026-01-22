@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Download, Code2, Sparkles, ChevronDown } from 'lucide-react'
+import { Download, Code2, Sparkles, ChevronDown, BookOpen } from 'lucide-react'
 import { SiReact, SiTailwindcss, SiOracle, SiSymfony, SiBootstrap, SiPrestashop, SiMysql, SiStimulus } from 'react-icons/si'
 import { PERSONAL_INFO } from '../../utils/constants'
 import { scrollToSection } from '../../hooks/useScrollSpy'
@@ -19,12 +19,21 @@ const About = () => {
         { name: 'MySQL', icon: SiMysql, color: '#FFFFFF' }
     ];
 
-    return <section id="a-propos" className="relative py-20 bg-neutral-200 overflow-hidden">
+    return <section id="a-propos" className="relative py-25 bg-neutral-200 overflow-hidden">
             <RadialGradientBackground variant="about" />
 
             <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-20">
                 {/* Main Grid */}
                 <div className="flex flex-col gap-8">
+                    <FadeIn delay={0}>
+                        <div className="text-center">
+                            <div className="inline-flex items-center gap-2 px-4 py-2 bg-primary/10 border border-primary/30 rounded-full">
+                                <BookOpen className="w-4 h-4 text-primary" />
+                                <span className="text-sm text-primary font-medium">À propos</span>
+                            </div>
+                        </div>
+                    </FadeIn>
+
                     <FadeIn delay={60}>
                         <h2 className="text-4xl lg:text-5xl font-normal text-black leading-light mb-5">
                             J'ai bien des noms ...
@@ -111,14 +120,6 @@ const About = () => {
                     </div>
                 </div>
             </div>
-            
-            {/* Scroll indicator */}
-            <button
-                onClick={() => scrollToSection('competences')}
-                className="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce"
-            >
-                <ChevronDown className="cursor-pointer w-8 h-8 text-primary" />
-            </button>
         </section>;
 }
 

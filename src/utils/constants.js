@@ -53,5 +53,5 @@ export const NAV_LINKS = [
     {id:'a-propos', label:'À propos'},
     {id:'competences', label:'Compétences'},
     {id:'projets', label:'Projets'},
-    {id:'contact', label:'Contact'},
+    // {id:'contact', label:'Contact'},
 ]
