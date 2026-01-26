@@ -34,7 +34,7 @@ export const PERSONAL_INFO = {
     ],
     goal: [
         "Ayant assisté à toutes les étapes d'un projet, la gestion de projet a attiré mon attention, j'ai le souhait de pouvoir accéder à ce type de poste et de pouvoir réaliser les actions lui appartenant.", 
-        "Des actions comme : être le lien entre le ou les services métiers et techniques - adapter son discour face à son interlocuteur pour une bonne compréhension - donner de la visibilité en étant transparent pour planifier et gérer les priorités - être à l'écoute des besoins métiers pour réaliser un cahier des charges - définir la meilleure méthode de suivi de projet et bien d'autres à apprendre - connaître et écrire différent type de documentation."
+        "Des actions comme : être le lien entre le ou les services métiers et techniques - adapter son discours face à son interlocuteur pour une bonne compréhension - donner de la visibilité en étant transparent pour planifier et gérer les priorités - être à l'écoute des besoins métiers pour réaliser un cahier des charges - définir la meilleure méthode de suivi de projet et bien d'autres à apprendre - connaître et écrire différent type de documentation."
     ]
 }
 
